@@ -15,8 +15,8 @@ This project aims to optimize vehicle routes using real-time traffic, weather, a
 git clone https://github.com/username/dynamic-route-optimization.git
 
 
-#Machine Learning model we train for LaneSense: YOLO-Based  Optimization at Traffic Signal
+####Machine Learning model we train for LaneSense: YOLO-Based  Optimization at Traffic Signal
 ###1The main idea is to examine live video feeds of traffic intersections using YOLO(You Only Look Once) algorithm.
 ###2The system determines the lane-specific car density by detecting and tracking vehicles.
 ###3Afterwards, lanes with a higher vehicle density receive green signals, which maximizes traffic flow and reduces wait times.
-(https://github.com/cryptdarkhorse/dynamic-route-optimization/blob/main/322586950-e819c962-f215-4f9e-b663-cea57b900a2b.mp4)
+(https://raw.githubusercontent.com/cryptdarkhorse/dynamic-route-optimization/blob/main/322586950-e819c962-f215-4f9e-b663-cea57b900a2b.mp4)
