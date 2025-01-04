@@ -1,7 +1,11 @@
 from flask import Flask, render_template, request, jsonify
+from dotenv import load_dotenv
 from data_fetcher import get_traffic_data, get_weather_data
 from route_optimizer import optimize_route
 from emissions_calculator import calculate_emissions
+
+# Load environment variables
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -32,3 +36,4 @@ def optimize_route_endpoint():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
